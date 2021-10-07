@@ -19,7 +19,7 @@ let container = document.getElementById('container');
 window.addEventListener('scroll',function(){
     let offset = window.pageYOffset;
     // console.log('offset:',offset)
-    container.style.backgroundPositionY = -(offset * 0.2) +'px';
+    container.style.backgroundPositionY = -(offset * 0.3) +'px';
 })
 
 // let titleChange = document.getElementById('change');
