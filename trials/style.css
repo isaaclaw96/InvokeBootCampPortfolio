@@ -1,0 +1,106 @@
+* {margin: 0; padding: 0;box-sizing: border-box;}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+#container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    padding: 15px 0;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 15px;
+}
+.parallax {
+
+    /* Full height */
+    width: 100%; 
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg-1 {
+    height: 100vh;
+    width: 100%;
+}
+#bg-2 {
+    background-image: url('images/bg-2.jpg');
+}
+.back-video{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+    transition: all ease-in-out 1s;
+}
+#bg-3 {
+    background-image: url('images/bg-3.jpg');
+}
+#about {
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projects {
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact {
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1200px) {
+    .parallax {
+      background-attachment: scroll;
+
+    }
+    .back-video {
+        display: none;
+        position: absolute;
+    }
+    #bg-1 {
+        background-image: url(images/poster.JPG);
+        background-size: cover;
+    }
+}

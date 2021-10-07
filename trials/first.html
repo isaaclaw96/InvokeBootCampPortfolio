@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Get Your Dank Memes Here">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Isaac Law">
+
+    Twitter Card data
+    <meta name="twitter:card" value="summary">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Title Here" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.example.com/" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Description Here" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial 2</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+	  <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="trial2.css" />
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid navigation">
+            <a class="navbar-brand" href="#home">CF23</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">home.</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">about.</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="#projects">projects.</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#contact">contact.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row video-section">
+            <div class="col bg-1 parallax" id="home">
+                <h1>Isaac Law.</h1>
+                <h2>Seafarer turned Web Surfer</h2>
+                <video autoplay loop id="back-video" muted poster="images/poster.JPG">
+                    <source src="images/video-2.mp4 " type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid words">   
+        
+            <div class="row">
+                <div class="col word-section" id="about">
+                    <h1>my previous life.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        
+
+        <div class="row">
+            <div class="col bg-2 parallax" id="bg-2"></div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row" id="project-section">
+                <div class="col word-section" id="projects">
+                  <div id="title"><h1>projects.</h1> <p>There's always a first time for everything &#128521; </p></div>
+                  <div id="project-holder">
+                    <div class="row holder" onclick="activateMenu(0)">
+                      <a href="projects/surrealism.html" target="_blank"><img src="images/project-1.PNG" /></a>
+                      <p>Animations</p>
+                    </div>
+                    <div class="row holder" onclick="activateMenu(1)"> 
+                      <a href="https://isaaclaw96.github.io/InvokeBootCampDay8/" target="_blank"><img src="images/project-4.PNG" /></a>
+                      <p>Homemade Video Player</p>
+                    </div>
+                    <div class="row holder"onclick="activateMenu(2)">
+                      <a href="https://isaaclaw96.github.io/InvokeBootCampDay6/day6_challanges/Responsive/web_2/final.html" target="_blank"><img src="images/project-3.PNG"></a>
+                      <p>Responsive Web Design</p>
+                    </div>
+                    <div class="row holder"onclick="activateMenu(3)"> 
+                      <a href="https://isaaclaw96.github.io/InvokeBootCampDay10/day10challenge.html" target="_blank"><img src="images/project-5.PNG"></a>
+                      <p>Parallax</p>
+                    </div>
+
+                    <div class="col slider">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+
+
+                            <div class="carousel-inner">
+                              <div class="carousel-item  active" data-bs-interval="5000">
+                                <div id="image-holder" class="d-block w-100 first" alt="...">
+                                  <a href="projects/surrealism.html" target="_blank"><div class="filler"></div></a>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Animations</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item " data-bs-interval="5000">
+                                <div id="image-holder" class="d-block w-100 second" alt="...">
+                                  <a href="https://isaaclaw96.github.io/InvokeBootCampDay8/" target="_blank"><div class="filler"></div></a>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Homemade Video Player</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item " data-bs-interval="5000">
+                                <div id="image-holder" class="d-block w-100 third" alt="...">
+                                  <a href="https://isaaclaw96.github.io/InvokeBootCampDay6/day6_challanges/Responsive/web_2/final.html" target="_blank"><div class="filler"></div></a>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Responsive Web Design</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item " data-bs-interval="5000">
+                                <div id="image-holder" class="d-block w-100 fourth" alt="...">
+                                  <a href="https://isaaclaw96.github.io/InvokeBootCampDay10/day10challenge.html" target="_blank"><div class="filler"></div></a>
+                                </div>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Parallax</h5>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="welp">
+            <div class="col bg-3 parallax" id="bg-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col word-section contact" id="contact">
+                        <h1>contact.</h1>
+                        <form  id="contact-form" action="#" name="contact_form">
+                          <label class="label-length" for="first_name">Name</label>
+                          <input class="input-length" name="first_name" type="text" required placeholder=""/>
+                          <label class="label-length" for="email">Email</label>
+                          <input class="input-length" name="email" type="email" required placeholder=""/>
+                          <label class="label-length" for="message">Message</label>
+                          <textarea class="input-length" name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+                          <div class="center">
+                            <input type="submit" value="Submit">
+                          </div> 
+                        </form>	
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="./trial2.js"></script>
+</body>
+</html>
