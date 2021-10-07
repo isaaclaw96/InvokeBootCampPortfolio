@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'anironregular';
-    src: url('/aniron-7bap-webfont.woff2') format('woff2'),
-         url('/aniron-7bap-webfont.woff') format('woff');
+    src: url('../Fonts/aniron-7bap-webfont.woff2') format('woff2'),
+         url('../Fonts/aniron-7bap-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'anironbold';
-    src: url('/anironbold-ml9p-webfont.woff2') format('woff2'),
-         url('/anironbold-ml9p-webfont.woff') format('woff');
+    src: url('../Fonts/anironbold-ml9p-webfont.woff2') format('woff2'),
+         url('../Fonts/anironbold-ml9p-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'anironcbold';
-    src: url('/anironcbold-pkwr-webfont.woff2') format('woff2'),
-         url('/anironcbold-pkwr-webfont.woff') format('woff');
+    src: url('../Fonts/anironcbold-pkwr-webfont.woff2') format('woff2'),
+         url('../Fonts/anironcbold-pkwr-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'anironcregular';
-    src: url('/anironc-d9dk-webfont.woff2') format('woff2'),
-         url('/anironc-d9dk-webfont.woff') format('woff');
+    src: url('../Fonts/anironc-d9dk-webfont.woff2') format('woff2'),
+         url('../Fonts/anironc-d9dk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'hobbiton_brushhahobbitonbrush';
-    src: url('/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff2') format('woff2'),
-         url('/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff') format('woff');
+    src: url('../Fonts/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff2') format('woff2'),
+         url('../Fonts/hobbitonbrushhandhobbitonbrush-wyga-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,8 +64,8 @@
 
 @font-face {
     font-family: 'maironregular';
-    src: url('/mairon-kyre-webfont.woff2') format('woff2'),
-         url('/mairon-kyre-webfont.woff') format('woff');
+    src: url('../Fonts/mairon-kyre-webfont.woff2') format('woff2'),
+         url('../Fonts/mairon-kyre-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,8 +76,8 @@
 
 @font-face {
     font-family: 'maironregular';
-    src: url('/mairon-xggo-webfont.woff2') format('woff2'),
-         url('/mairon-xggo-webfont.woff') format('woff');
+    src: url('../Fonts/mairon-xggo-webfont.woff2') format('woff2'),
+         url('../Fonts/mairon-xggo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -88,8 +88,8 @@
 
 @font-face {
     font-family: 'middleearthmedium';
-    src: url('/middleearth-ao6m-webfont.woff2') format('woff2'),
-         url('/middleearth-ao6m-webfont.woff') format('woff');
+    src: url('../Fonts/middleearth-ao6m-webfont.woff2') format('woff2'),
+         url('../Fonts/middleearth-ao6m-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -97,8 +97,8 @@
 
 @font-face {
     font-family: 'tengwaroptimediagonregular';
-    src: url('/tengwaroptime-webfont.woff2') format('woff2'),
-         url('/tengwaroptime-webfont.woff') format('woff');
+    src: url('../Fonts/TengwarOptimeDiagon.ttf') format('woff2'),
+         url('../Fonts/tengwaroptime-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -107,8 +107,8 @@
 
 @font-face {
     font-family: 'tengwaroptimediagonregular';
-    src: url('/tengwaroptimediagon-webfont.woff2') format('woff2'),
-         url('/tengwaroptimediagon-webfont.woff') format('woff');
+    src: url('../tengwaroptimediagon-webfont.woff2') format('woff2'),
+         url('../tengwaroptimediagon-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
